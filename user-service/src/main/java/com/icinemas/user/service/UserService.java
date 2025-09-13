@@ -1,10 +1,10 @@
 package com.icinemas.user.service;
 
 import com.icinemas.enums.UserRole;
+import com.icinemas.exception.InvalidFieldException;
+import com.icinemas.exception.UnauthorizedException;
 import com.icinemas.model.AuthResponse;
 import com.icinemas.model.User;
-import com.icinemas.user.exception.InvalidFieldException;
-import com.icinemas.user.exception.UnauthorizedException;
 import com.icinemas.user.repository.UserRepository;
 import com.icinemas.user.util.PasswordUtil;
 import com.icinemas.util.JwtUtil;

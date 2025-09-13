@@ -1,4 +1,4 @@
-package com.icinemas.user.exception;
+package com.icinemas.exception;
 
 public class InvalidFieldException extends RuntimeException {
     public InvalidFieldException(String message) {

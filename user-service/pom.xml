@@ -53,7 +53,7 @@
             <artifactId>icinemas-model</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
-	</dependencies>
+    </dependencies>
 
 	<build>
 		<plugins>
